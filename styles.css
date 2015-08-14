@@ -1,0 +1,61 @@
+.navBar {
+	position: fixed;
+	top: 0;
+	right: 0;
+	top: 0;
+	width: 100%;
+	padding: 6px;
+	font-family: Lucida;
+	font-size: 150%;
+	background-color: #3232FF;
+	color: #FFFFFF;
+}
+
+.container {
+	position: relative;
+	margin-top: 50px;
+	margin-right: auto;
+	margin-left:  auto;
+	font-size:    150%;
+	font-family: Avant Garde;
+	width: 600px;
+	color: #ffffff;
+}
+
+body {
+	background-image: url("blast.png");
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: top center !important;
+	background-repeat: no-repeat !important;
+	background-attachment: fixed;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+}
+
+li {
+	display: inline-block;
+	margin: 5px;
+}
+
+a {
+	display: block;
+	width: 70px;
+}
+
+/* Unvisted Link */
+a:link {
+    color: #ffffff;
+}
+/* visted link style */
+a:visited {
+    color: #ffffff;
+}
+/* hover link style */
+a:hover {
+    color: #66ff33;
+}
