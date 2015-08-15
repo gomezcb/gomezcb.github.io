@@ -41,5 +41,14 @@
 #navBar li a:hover {
 	color: #000000;
 	background-color: #BFC5C5;
-; 
+}
+
+#aboutBlock {
+	font-size: 150%;
+	color: #000000;
+	margin-right: auto;
+	margin-left: auto;
+	margin-left: 10px;
+	border-radius: 4px;
+	background-color: #669999;
 }
