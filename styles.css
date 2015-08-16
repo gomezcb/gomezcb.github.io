@@ -71,3 +71,10 @@ html {
 #bodyBlock li {
 	text-align: left;
 }
+
+@media screen and (max-width: 959px) {
+	#bodyBlock {
+		width: 100%;
+	}
+
+}
