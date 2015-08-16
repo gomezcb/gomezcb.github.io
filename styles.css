@@ -35,6 +35,33 @@ html {
 	font-family: Arial;
 }
 
+#infoContainer {
+	position: relative;
+	width: 950px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #5D5D5C;
+}
+
+#leftBlock {
+	width: 640px;
+	float: left;
+}
+
+#rightBlock {
+	width: 310px;
+	float: right;
+	color: #FFFF99;
+	font-size: 150%;
+	font-family: Arial, verdana;
+	background-color: #5D5D5C;
+	padding: 5px;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
 #navBar li {
 	float: left;
 }
