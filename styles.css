@@ -77,12 +77,13 @@ html {
 		width: 100%;
 	}
 
-	#navBar ul {
-		width: 100px;
-		list-style-type: none;
+	#navBar {
+		position: absolute;
+		left: 0;
+		width: 100%;
 	}
 
-	#navBar ul {
-		display: block;
+	#navBar li {
+		float: none;
 	}
 }
