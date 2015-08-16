@@ -67,3 +67,7 @@ html {
 	background-color: #CECECE;
 	text-align: center;
 }
+
+#bodyBlock li {
+	text-align: left;
+}
