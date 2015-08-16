@@ -72,9 +72,17 @@ html {
 	text-align: left;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 599px) {
 	#bodyBlock {
 		width: 100%;
 	}
 
+	#navBar ul {
+		width: 100px;
+		list-style-type: none;
+	}
+
+	#navBar ul {
+		display: block;
+	}
 }
