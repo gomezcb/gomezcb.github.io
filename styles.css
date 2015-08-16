@@ -44,6 +44,14 @@ html {
 	background-color: #5D5D5C;
 }
 
+#memberContainer {
+	width: 800px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+}
+
 #leftBlock {
 	width: 640px;
 	float: left;
@@ -62,6 +70,26 @@ html {
 	box-sizing: border-box;
 }
 
+#memberRight {
+	width: 400px;
+	float: right;
+	background-color: #5D5D5C;
+	font-family: Arial;
+	font-style: 150%;
+	text-align: center;
+	color: #ffffff;
+}
+
+#memberLeft {
+	width: 400px;
+	float: left;
+	background-color: #5D5D5C;
+	font-family: Arial;
+	font-style: 150%;
+	text-align: center;
+	color: #ffffff;
+}
+
 #navBar li {
 	float: left;
 }
@@ -78,6 +106,10 @@ html {
 #navBar li a:hover {
 	color: #000000;
 	background-color: #BFC5C5;
+}
+
+#memberContainer li {
+	text-align: left;
 }
 
 #bodyBlock {
@@ -103,7 +135,7 @@ html {
 @media screen and (max-width: 599px) {
 	#bodyBlock {
 		width: 100%;
-		margin-top: 150px;
+		margin-top: 175px;
 	}
 
 	#navBar {
@@ -116,5 +148,19 @@ html {
 		float: none;
 		border-top: 1px solid #ccc;
 		border-bottom: 1px solid #ccc;
+	}
+
+	#memberContainer {
+		width: 100%;
+	}
+
+	#memberLeft {
+		width: 100%;
+		margin-top: 175px;
+	}
+
+	#memberRight {
+		width: 100%;
+		float: left;
 	}
 }
