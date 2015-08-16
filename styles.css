@@ -5,11 +5,19 @@
 	padding-left: 30px;
 	padding-top: 5px;
 	padding-bottom: 5px;
-	background-color: #293D3D;
+	background-color: #000000;
 	color: #FFFFFF;
 	-webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
 	box-sizing: border-box;
+}
+
+html { 
+	background: url(smile.png) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 #navBar {
@@ -23,7 +31,7 @@
 	margin-bottom: 3em;
 	margin-right: 0px;
 	margin-left: 0px;
-	background-color: #669999;
+	background-color: #000000;
 	font-family: Arial;
 }
 
