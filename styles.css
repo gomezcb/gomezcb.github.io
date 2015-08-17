@@ -221,5 +221,6 @@ html {
 	#videoRightBlock {
 		width: 100%;
 		float: left;
+		height: auto;
 	}
 }
