@@ -44,6 +44,15 @@ html {
 	background-color: #5D5D5C;
 }
 
+#videoContainer {
+	position: relative;
+	width: 960px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #5D5D5C;
+}
+
 #bodyBlock {
 	position: static;
 	margin-top: 10px;
@@ -72,6 +81,25 @@ html {
 
 #rightBlock {
 	width: 310px;
+	float: right;
+	color: #FFFF99;
+	font-size: 150%;
+	font-family: Arial, verdana;
+	background-color: #5D5D5C;
+	padding: 5px;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#videoLeftBlock {
+	width: 480px;
+	float: left;
+}
+
+#videoRightBlock {
+	width: 480px;
+	height: 360px;
 	float: right;
 	color: #FFFF99;
 	font-size: 150%;
