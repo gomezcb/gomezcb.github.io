@@ -130,7 +130,7 @@ html {
 }
 
 /* adjust web page based on screen size */
-@media screen and (max-width: 599px) {
+@media only screen and (max-device-width: 599px) {
 	#mainHeader {
 		font-family: Verdana;
 		color: #00ff00;
