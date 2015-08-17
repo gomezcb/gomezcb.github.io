@@ -130,7 +130,12 @@ html {
 }
 
 /* adjust web page based on screen size */
-@media screen and (min-width: 398px) and (max-width: 599px) {
+@media screen and (max-width: 599px) {
+	#mainHeader {
+		font-family: Verdana;
+		color: #00ff00;
+	}
+
 	#bodyBlock {
 		width: 100%;
 	}
@@ -144,6 +149,10 @@ html {
 		float: none;
 		border-top: 1px solid #ccc;
 		border-bottom: 1px solid #ccc;
+	}
+
+	#navBar li a {
+		color: #00ff00;
 	}
 
 	#memberContainer {
