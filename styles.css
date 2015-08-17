@@ -44,6 +44,19 @@ html {
 	background-color: #5D5D5C;
 }
 
+#bodyBlock {
+	position: static;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 600px;
+	font-size: 150%;
+	font-family: Arial;
+	padding: 4px;
+	background-color: #CECECE;
+	text-align: center;
+}
+
 #memberContainer {
 	width: 800px;
 	margin-top: 10px;
@@ -112,34 +125,17 @@ html {
 	text-align: left;
 }
 
-#bodyBlock {
-	position: relative;
-	width: 600px;
-	font-size: 150%;
-	font-family: Arial;
-	color: #000000;
-	margin-right: auto;
-	margin-left: auto;
-	margin-top: 50px;
-	border-radius: 4px;
-	padding: 4px;
-	background-color: #CECECE;
-	text-align: center;
-}
-
 #bodyBlock li {
 	text-align: left;
 }
 
 /* adjust web page based on screen size */
-@media screen and (max-width: 599px) {
+@media screen and (min-width: 398px) and (max-width: 599px) {
 	#bodyBlock {
 		width: 100%;
-		margin-top: 175px;
 	}
 
 	#navBar {
-		position: absolute;
 		left: 0;
 		width: 100%;
 	}
@@ -156,43 +152,22 @@ html {
 
 	#memberLeft {
 		width: 100%;
-		margin-top: 175px;
 	}
 
 	#memberRight {
 		width: 100%;
 		float: left;
 	}
-}
 
-@media only screen and (min-device-width: 480px) {
-	#bodyBlock {
-		width: 100%;
-		margin-top: 175px;
-	}
-
-	#navBar {
-		position: absolute;
-		left: 0;
+	#infoContainer {
 		width: 100%;
 	}
 
-	#navBar li {
-		float: none;
-		border-top: 1px solid #ccc;
-		border-bottom: 1px solid #ccc;
-	}
-
-	#memberContainer {
+	#leftBlock {
 		width: 100%;
 	}
 
-	#memberLeft {
-		width: 100%;
-		margin-top: 175px;
-	}
-
-	#memberRight {
+	#rightBlock {
 		width: 100%;
 		float: left;
 	}
