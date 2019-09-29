@@ -25,7 +25,7 @@
 	margin-right: 0px;
 	margin-left: 0px;
 	background-color: #5D5D5C;
-	font-family: Arial;
+	font-family: Palatino, Arial;
 }
 
 #infoContainer {
@@ -34,7 +34,7 @@
 	margin-top: 10px;
 	margin-right: auto;
 	margin-left: auto;
-	font-family: Helvetica Neue;
+	font-family: Palatino, Arial;
 	background-color: #5D5D5C;
 }
 
@@ -54,7 +54,7 @@
 	margin-left: auto;
 	width: 600px;
 	font-size: 150%;
-	font-family: Arial;
+	font-family: Palatino, Arial;
 	padding: 4px;
 	background-color: #CECECE;
 	text-align: center;
@@ -78,7 +78,7 @@
 	float: right;
 	color: #FFFF99;
 	font-size: 150%;
-	font-family: Arial, verdana;
+	font-family: Palatino, Arial;
 	background-color: #5D5D5C;
 	padding: 5px;
 	-webkit-box-sizing: border-box;
@@ -98,7 +98,7 @@
 	float: right;
 	color: #FFFF99;
 	font-size: 150%;
-	font-family: Arial, verdana;
+	font-family: Palatino, Arial;
 	background-color: #5D5D5C;
 	padding: 5px;
 	-webkit-box-sizing: border-box;
