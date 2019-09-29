@@ -12,14 +12,6 @@
 	box-sizing: border-box;
 }
 
-html { 
-	background: url(smile.png) no-repeat center center fixed; 
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-}
-
 #navBar {
 	float: left;
 	width: 100%;
