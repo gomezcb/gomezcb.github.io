@@ -151,6 +151,10 @@
 	text-align: left;
 }
 
+@font-face {
+  font-family: helvetica neue;
+  }
+
 /* adjust web page based on screen size */
 @media only screen and (max-device-width: 599px) {
 	#mainHeader {
