@@ -1,6 +1,6 @@
 #mainHeader {
 	/* font-family: Arial;*/
-	font-family: Palatino;
+	font-family: Montserrat;
 	position: relative;
 	width: 100%;
 	padding-left: 30px;
@@ -34,7 +34,7 @@
 	margin-top: 10px;
 	margin-right: auto;
 	margin-left: auto;
-	font-family: Palatino, Arial;
+	font-family: Montserrat, Palatino, Arial;
 	background-color: #5D5D5C;
 }
 
