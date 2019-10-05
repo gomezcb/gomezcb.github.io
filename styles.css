@@ -25,7 +25,8 @@
 	margin-right: 0px;
 	margin-left: 0px;
 	background-color: #5D5D5C;
-	font-family: Montserrat, Palatino, Arial;
+	/*font-family: Montserrat, Palatino, Arial;*/
+	font-family: 'Nanum Gothic', sans-serif;
 }
 
 #infoContainer {
@@ -34,7 +35,7 @@
 	margin-top: 10px;
 	margin-right: auto;
 	margin-left: auto;
-	font-family: Montserrat, Palatino, Arial;
+	font-family: 'Nanum Gothic', sans-serif;
 	background-color: #5D5D5C;
 }
 
@@ -54,7 +55,7 @@
 	margin-left: auto;
 	width: 600px;
 	font-size: 150%;
-	font-family: Palatino, Arial;
+	font-family: 'Nanum Gothic', sans-serif;
 	padding: 4px;
 	background-color: #CECECE;
 	text-align: center;
@@ -78,7 +79,7 @@
 	float: right;
 	color: #FFFF99;
 	font-size: 150%;
-	font-family: Palatino, Arial;
+	font-family: 'Nanum Gothic', sans-serif;
 	background-color: #5D5D5C;
 	padding: 5px;
 	-webkit-box-sizing: border-box;
@@ -98,7 +99,7 @@
 	float: right;
 	color: #FFFF99;
 	font-size: 150%;
-	font-family: Palatino, Arial;
+	font-family: 'Nanum Gothic', sans-serif;
 	background-color: #5D5D5C;
 	padding: 5px;
 	-webkit-box-sizing: border-box;
@@ -159,7 +160,7 @@
 /* adjust web page based on screen size */
 @media only screen and (max-device-width: 599px) {
 	#mainHeader {
-		font-family: Verdana;
+		font-family: 'Nanum Gothic', sans-serif;
 		color: #00ff00;
 	}
 
