@@ -1,7 +1,41 @@
 body {
-    margin: 0;
+    margin: 0px;
 }
 
+h1{
+    padding-top: 20px;
+    margin-top: 0px; 
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+hr{
+    margin: 0px;
+}
+
+p{
+    margin: 0px;
+}
 .profile-picture{
     border-radius: 100%;
+}
+
+.MyHeader{
+    color: #495579;
+}
+
+.Education{
+    background-color: #495579;
+    color: #FFFBEB;
+    padding: 25px;
+    padding-bottom: 35px;
+    border-radius: 15px;
+}
+
+.MainHeader {
+    background-color: #FFFBEB;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding-bottom: 35px;
 }
