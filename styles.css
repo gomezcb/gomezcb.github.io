@@ -32,8 +32,9 @@ p{
 .Education{
     background-color: #495579;
     color: #FFFBEB;
+    padding-top: 25px;
     padding-left: 10px;
-    padding-bottom: 35px;
+    padding-bottom: 25px;
     border-radius: 15px;
 }
 
