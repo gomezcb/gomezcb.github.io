@@ -33,11 +33,18 @@ p {
     background-color: #495579;
     color: #FFFBEB;
     padding-top: 25px;
-    padding-left: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
     padding-bottom: 25px;
     border-radius: 25px;
     text-align: left;
     max-width: 500px;
+}
+
+.hobbies {
+    text-align: left;
+    max-width: 500px;
+    margin: auto;
 }
 
 .MainHeader {
