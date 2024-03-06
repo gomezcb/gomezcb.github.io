@@ -36,6 +36,7 @@ p{
     padding-left: 10px;
     padding-bottom: 25px;
     border-radius: 15px;
+    max-width: 400px;
 }
 
 .MainHeader {
