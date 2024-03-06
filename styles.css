@@ -2,7 +2,7 @@ body {
     margin: 0px;
 }
 
-h1{
+h1 {
     padding-top: 20px;
     margin-top: 0px; 
     margin-right: 0px;
@@ -11,32 +11,33 @@ h1{
 
 .subHeaderSection {
     padding-left: 10px;
-
 }
 
-hr{
+hr {
     margin: 0px;
 }
 
-p{
+p {
     margin: 0px;
 }
-.profile-picture{
+
+.profile-picture {
     border-radius: 100%;
 }
 
-.MyHeader{
+.MyHeader {
     color: #495579;
 }
 
-.Education{
+.Education {
     background-color: #495579;
     color: #FFFBEB;
     padding-top: 25px;
     padding-left: 10px;
     padding-bottom: 25px;
-    border-radius: 15px;
-    max-width: 400px;
+    border-radius: 25px;
+    text-align: left;
+    max-width: 500px;
 }
 
 .MainHeader {
