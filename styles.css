@@ -11,6 +11,8 @@ h1 {
 
 .subHeaderSection {
     padding-left: 10px;
+    margin: auto;
+    max-width: 500px;
 }
 
 hr {
